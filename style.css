@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    padding: 4px;
+}
+#tasks {
+    height: 100%;
+    margin: 30px;
+}
+.newElementWrapper {
+    width: 30vw;
+    min-width: 400px;
+    border: solid 1px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.newElementWrapper > * {
+    margin: 3px;
+}
+#submit {
+    margin: 10px;
+}
+h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
